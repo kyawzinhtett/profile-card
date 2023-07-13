@@ -31,7 +31,7 @@ function Intro() {
   );
 }
 
-function SkillList({ skill, emoji, bgColor }) {
+function SkillList() {
   return (
     <div className="skill-list">
       <Skill skill="HTML+CSS" emoji="💪" bgColor="#DD4B25" />
